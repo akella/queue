@@ -40,12 +40,12 @@ h1, h2, h3, h4, h5 { font: bold 16px/20px "LucidaSans", Arial, "Helvetica CY", "
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
 
-.topper { overflow: hidden; width: 100%; background-color: #212121; border-bottom: 1px solid black; padding: 10px 0 12px; }
-.topper a { text-decoration: none; text-shadow: 0 1px 0 black; letter-spacing: 0.2px; }
+.topper { overflow: hidden; width: 100%; background-color: #212121; border-bottom: 1px solid black; padding: 11px 0; }
+.topper a { text-decoration: none; text-shadow: 0 1px 0 black; }
 .topper a:hover { color: #2f669f; }
 
 .topper__nav { float: left; margin-left: 15px; }
-.topper__nav li { display: inline; margin-right: 5px; }
+.topper__nav li { display: inline; margin-right: 8px; }
 
 .profile { float: right; margin-right: 17px; }
 .profile .profile__user, .profile .profile__logout { display: inline-block; }
