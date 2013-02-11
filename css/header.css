@@ -13,7 +13,7 @@
 
 .header { background-color: #3f3f3f; border-bottom: 1px solid #2c2c2c; background: url(../img/header_bg.png); box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.4); padding: 24px 0 9px; overflow: hidden; }
 
-.header__logo { float: left; margin-left: 17px; margin-right: -141px; width: 124px; }
+.header__logo { float: left; margin-left: 17px; margin-right: -141px; }
 .header__logo a { background: url('../img/icons-s26de7f46e2.png') 0 0 no-repeat; width: 124px; height: 24px; display: block; overflow: hidden; text-indent: -9999px; }
 
 .header__col { float: left; width: 100%; margin: 0 165px; }
