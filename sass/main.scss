@@ -1,0 +1,40 @@
+@import "base";
+
+//item
+.item{
+	display: inline-block;
+	vertical-align: top;
+	width: 262px;
+	margin: 2px 16px 20px 18px;
+}
+
+	//item__img
+	.item__img{
+		box-shadow: 0 5px 20px rgba(0, 0, 0, .6);
+		margin-bottom: 9px;
+		background-color: #000;
+		display: inline-block;
+    	line-height: 170px;
+		img{
+			min-height: 172px;
+			max-height: 174px;
+			min-width: 262px;
+			max-width: 262px;
+			vertical-align: middle;
+		}
+	}
+
+	//item__type
+	.item__type{
+		color: #777;
+		text-transform: uppercase;
+	}
+
+	//item__title
+	.item__title{
+		font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+		font-size: 13px;
+		color: #ccc;
+		line-height: 1.8;
+		text-shadow: 0 -1px 0 #000;
+	}

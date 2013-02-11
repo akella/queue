@@ -1,0 +1,9 @@
+html, body { height: 100%; }
+
+* { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
+
+body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-weight: normal; font-size: 11px; background: url(../img/page_bg.png); color: #eee; width: 100%; }
+
+h1, h2, h3, h4, h5 { font: bold 16px/20px "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; text-transform: uppercase; }
+
+.page { background: url(../img/page_top_bg.png) repeat-x; min-height: 500px; padding: 20px 0; }

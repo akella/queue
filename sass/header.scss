@@ -1,0 +1,127 @@
+@import "base";
+
+//topper
+.topper{
+	overflow: hidden;
+	width: 100%;
+	background-color: #212121;
+	border-bottom: 1px solid #000;
+	padding: 10px 0 12px;
+	a{
+		text-decoration: none;
+		text-shadow: 0 1px 0 #000;
+		letter-spacing: 0.2px;
+		&:hover{
+			color: #2f669f;
+		}
+	}
+}
+
+
+	//topper__nav
+	.topper__nav{
+		float: left;
+		margin-left: 15px;
+		li{
+			display: inline;
+			margin-right: 5px;
+		}
+	}
+
+	//profile
+	.profile{
+		float: right;
+		margin-right: 17px;
+		.profile__user,
+		.profile__logout{
+			display: inline-block;
+		}
+		.profile__user{
+			font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+			margin-right: 5px;
+		}
+	}
+
+//header
+.header{
+	background-color: #3f3f3f; //tmp
+	border-bottom: 1px solid #2c2c2c;
+	background: url(../img/header_bg.png);
+	box-shadow:inset 0px 10px 10px rgba(#000,0.4);
+	padding: 24px 0 9px;
+	overflow: hidden;
+}
+
+	//header__logo
+	.header__logo{
+		float: left;
+	    margin-left: 17px;
+	    margin-right: -141px;
+	    width: 124px;
+		a{
+			@include sized-sprite($icons, logo);
+			display: block;
+			overflow: hidden;
+			text-indent: -9999px;
+		}
+	}
+
+	//header__col
+	.header__col{
+		float: left;
+		width: 100%;
+		margin: 0 165px;
+	}
+
+		//header__search
+		.header__search{
+			margin-bottom: 10px;
+			form{
+				padding-right: 210px;
+			}
+			input{
+				border-radius: 30px;
+				border: 1px solid #333;
+				width: 993px;
+				padding-left: 20px;
+				height: 23px;
+				width: 100%;
+			}
+		}
+
+		//header__nav
+		.header__nav{
+			overflow: hidden;
+			text-transform: uppercase;
+			li{
+				float: left;
+				margin-left: -14px;
+				&:first-child{
+					margin-left: 0;
+				}
+				a{
+					display: block;
+					text-align: center;
+					line-height: 20px;
+					border: 1px solid transparent;
+					padding: 0 27px 0 31px;
+					text-decoration: none;
+					color: #a1a1a1;
+					&:hover{
+						color: #ccc;
+						background-color:  rgba(35, 35, 35, 0.3);
+						border-radius: 4px;
+						border: 1px solid #222;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+@font-face { font-family: 'LucidaSans'; src: url("../fonts/lucidasans.eot"); src: url("../fonts/lucidasans.eot?#iefix") format("embedded-opentype"), url("../fonts/lucidasans.woff") format("woff"), url("../fonts/lucidasans.ttf") format("truetype"), url("../fonts/lucidasans.svg#lucidasans") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'LucidaSans-Demi'; src: url("../fonts/lucidasansdemibold.eot"); src: url("../fonts/lucidasansdemibold.eot?#iefix") format("embedded-opentype"), url("../fonts/lucidasansdemibold.woff") format("woff"), url("../fonts/lucidasansdemibold.ttf") format("truetype"), url("../fonts/lucidasansdemibold.svg#lucidasansdemibold") format("svg"); font-weight: normal; font-style: normal; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+a { text-decoration: none; color: #ccc; text-decoration: underline; }
+
+a:hover { color: #d40666; text-decoration: none; }
+
+a, button, input, textarea, label, select { outline: none; }
+
+html, body { height: 100%; }
+
+* { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
+
+body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-weight: normal; font-size: 11px; background: url(../img/page_bg.png); color: #eee; width: 100%; }
+
+h1, h2, h3, h4, h5 { font: bold 16px/20px "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; text-transform: uppercase; }
+
+.page { background: url(../img/page_top_bg.png) repeat-x; min-height: 500px; padding: 20px 0; }
+
+/* default layout */
+.l { width: 100%; display: inline-block; }
+.l .l-col1 { float: left; width: 20%; }
+.l .l-col2 { float: right; width: 70%; }
+
+.topper { overflow: hidden; width: 100%; background-color: #212121; border-bottom: 1px solid black; padding: 10px 0 12px; }
+.topper a { text-decoration: none; text-shadow: 0 1px 0 black; letter-spacing: 0.2px; }
+.topper a:hover { color: #2f669f; }
+
+.topper__nav { float: left; margin-left: 15px; }
+.topper__nav li { display: inline; margin-right: 5px; }
+
+.profile { float: right; margin-right: 17px; }
+.profile .profile__user, .profile .profile__logout { display: inline-block; }
+.profile .profile__user { font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; margin-right: 5px; }
+
+.header { background-color: #3f3f3f; border-bottom: 1px solid #2c2c2c; background: url(../img/header_bg.png); box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.4); padding: 24px 0 9px; overflow: hidden; }
+
+.header__logo { float: left; margin-left: 17px; margin-right: -141px; width: 124px; }
+.header__logo a { background: url('../img/icons-s26de7f46e2.png') 0 0 no-repeat; width: 124px; height: 24px; display: block; overflow: hidden; text-indent: -9999px; }
+
+.header__col { float: left; width: 100%; margin: 0 165px; }
+
+.header__search { margin-bottom: 10px; }
+.header__search form { padding-right: 210px; }
+.header__search input { border-radius: 30px; border: 1px solid #333333; width: 993px; padding-left: 20px; height: 23px; width: 100%; }
+
+.header__nav { overflow: hidden; text-transform: uppercase; }
+.header__nav li { float: left; margin-left: -14px; }
+.header__nav li:first-child { margin-left: 0; }
+.header__nav li a { display: block; text-align: center; line-height: 20px; border: 1px solid transparent; padding: 0 27px 0 31px; text-decoration: none; color: #a1a1a1; }
+.header__nav li a:hover { color: #ccc; background-color: rgba(35, 35, 35, 0.3); border-radius: 4px; border: 1px solid #222222; text-decoration: none; }
+
+.item { display: inline-block; vertical-align: top; width: 262px; margin: 2px 16px 20px 18px; }
+
+.item__img { box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6); margin-bottom: 9px; background-color: #000; display: inline-block; line-height: 170px; }
+.item__img img { min-height: 172px; max-height: 174px; min-width: 262px; max-width: 262px; vertical-align: middle; }
+
+.item__type { color: #777; text-transform: uppercase; }
+
+.item__title { font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #ccc; line-height: 1.8; text-shadow: 0 -1px 0 black; }
+
+.lteie8 body { background: red; }
