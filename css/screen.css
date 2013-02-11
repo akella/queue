@@ -50,6 +50,8 @@ h1, h2, h3, h4, h5 { font: bold 16px/20px "LucidaSans", Arial, "Helvetica CY", "
 .profile { float: right; margin-right: 17px; }
 .profile .profile__user, .profile .profile__logout { display: inline-block; }
 .profile .profile__user { font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; margin-right: 5px; }
+.profile .profile__user a { color: #fff; }
+.profile .profile__user a:hover { color: #2f669f; }
 
 .header { background-color: #3f3f3f; border-bottom: 1px solid #2c2c2c; background: url(../img/header_bg.png); box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.4); padding: 24px 0 9px; overflow: hidden; }
 

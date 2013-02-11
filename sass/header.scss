@@ -39,6 +39,12 @@
 		.profile__user{
 			font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 			margin-right: 5px;
+			a{
+				color: #fff;
+				&:hover{
+					color: #2f669f;
+				}
+			}
 		}
 	}
 
