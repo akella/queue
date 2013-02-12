@@ -176,6 +176,7 @@
 			position: absolute;
 			right: 24px;
 			font-size: 11px;
+			z-index: 2;
 			i{
 				@include sized-sprite($icons, collapse_ico);
 				display: inline-block;
@@ -187,6 +188,7 @@
 			position: absolute;
 			right: 24px;
 			font-size: 11px;
+			z-index: 2;
 			i{
 				@include sized-sprite($icons, expand_ico);
 				display: inline-block;
@@ -342,6 +344,12 @@
 								left: -15px;
 								top: 0;
 								@include sized-sprite($icons, audio_ico);
+							}
+							.sub{
+								position: absolute;
+								left: -15px;
+								top: 0;
+								@include sized-sprite($icons, sub_ico);
 							}
 							.aspect{
 								font-family: 'CPMono_v07Plain', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
