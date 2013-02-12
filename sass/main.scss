@@ -367,5 +367,34 @@
 							.assigned{
 								font-weight: bold;
 							}
+						&.entry__expand_short{
+							background: #e1e1e1;
+							display: block;
+							padding-top: 3px;
+							padding-left: 10px;
+							position: relative;
+							td{
+								display: none;
+
+							}
+							tr,thead,tbody{
+								display: inline-block;
+								background: transparent !important;
+
+							}
+							tr{
+								td,th{
+									&:first-child{
+										margin-right: 14px;
+										display: inline-block;
+										white-space:nowrap;
+										vertical-align: middle;
+									}
+								}
+								th{
+									font-size: 0;
+								}
+							}
+						}
 					}
 		}
