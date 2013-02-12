@@ -4,6 +4,6 @@ html, body { height: 100%; }
 
 body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-weight: normal; font-size: 11px; background: url(../img/bg.png); color: #eee; width: 100%; min-width: 920px; }
 
-h1, h2, h3, h4, h5 { font: bold 16px/20px "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; text-transform: uppercase; }
+h1, h2, h3, h4, h5 { font: bold 16px/20px "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; }
 
 .page { background: url(../img/page_bg.png) repeat-x; min-height: 500px; padding: 20px 0; }

@@ -22,7 +22,7 @@
 .header__search form { padding-right: 210px; }
 .header__search input { border-radius: 30px; border: 1px solid #333333; width: 993px; padding-left: 20px; height: 23px; width: 100%; }
 
-.nav { text-transform: uppercase; }
+.nav { display: inline-block; text-transform: uppercase; }
 .nav li { float: left; margin-left: -14px; }
 .nav li:first-child { margin-left: 0; }
 .nav li a { display: block; text-align: center; line-height: 20px; border: 1px solid transparent; padding: 0 27px 0 31px; text-decoration: none; color: #a1a1a1; }
