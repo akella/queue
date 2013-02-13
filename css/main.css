@@ -2,7 +2,7 @@
 .movie .movie__type { color: #777; text-transform: uppercase; }
 .movie .movie__title { font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #ccc; line-height: 1.8; text-shadow: 0 -1px 0 black; }
 
-.item { -webkit-perspective: 1000; -moz-perspective: 1000; perspective: 1000; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); -webkit-transition: 0.6s; }
+.item { -webkit-perspective: 1000; -moz-perspective: 1000; perspective: 1000; -webkit-transition: 0.6s; cursor: pointer; }
 .item:hover .item__flipper { -webkit-transform: rotate3d(0, 1, 0, 35deg); -moz-transform: rotate3d(0, 1, 0, 35deg); transform: rotate3d(0, 1, 0, 35deg); }
 .item.flipped { -webkit-transform: scale(1.1); }
 .item.flipped .item__flipper { -webkit-transform: rotateY(180deg); -moz-transform: rotateY(180deg); transform: rotateY(180deg); }

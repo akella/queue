@@ -32,8 +32,9 @@
          -webkit-perspective: 1000;
          -moz-perspective: 1000;
          perspective: 1000;
-         box-shadow:0 0 10px rgba(#000, .7);
+         // box-shadow:0 0 10px rgba(#000, .7);
          -webkit-transition: 0.6s;
+         cursor: pointer;
          &:hover{
             .item__flipper{
 			// full rotate
