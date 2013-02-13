@@ -23,9 +23,9 @@
 
 .dialog__attribute { position: relative; color: #aaa; text-transform: uppercase; margin-bottom: 0.5em; font-size: 11px; }
 .dialog__attribute .sub, .dialog__attribute .video, .dialog__attribute .audio { position: absolute; left: -20px; top: 1px; }
-.dialog__attribute .sub { background: url('../img/icons-s6d4f5acd60.png') 0 -134px no-repeat; width: 14px; height: 11px; }
-.dialog__attribute .video { background: url('../img/icons-s6d4f5acd60.png') 0 -110px no-repeat; width: 12px; height: 14px; }
-.dialog__attribute .audio { background: url('../img/icons-s6d4f5acd60.png') 0 -34px no-repeat; width: 12px; height: 16px; }
+.dialog__attribute .sub { background: url('../img/icons-sf166618a24.png') 0 -247px no-repeat; width: 14px; height: 10px; }
+.dialog__attribute .video { background: url('../img/icons-sf166618a24.png') 0 -202px no-repeat; width: 12px; height: 13px; }
+.dialog__attribute .audio { background: url('../img/icons-sf166618a24.png') 0 -85px no-repeat; width: 12px; height: 15px; }
 
 .dialog__sound { color: #fff; font-size: 13px; margin-bottom: 0.5em; }
 

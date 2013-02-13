@@ -106,9 +106,9 @@
         left: -20px;
         top: 1px;
       }
-        .sub{@include sized-sprite($icons, sub_ico);}
-        .video{@include sized-sprite($icons, video_ico);}
-        .audio{@include sized-sprite($icons, audio_ico);}
+        .sub{@include sized-sprite($icons, sub_shd_ico);}
+        .video{@include sized-sprite($icons, video_shd_ico);}
+        .audio{@include sized-sprite($icons, audio_shd_ico);}
     }
 
     //dialog__sound
