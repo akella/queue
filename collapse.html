@@ -1,0 +1,430 @@
+<!doctype html>
+<!--[if lte IE 8]><html lang="ru-RU" class="lteie8"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="ru-RU"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Collapse - Queue</title>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" media="screen" href="css/screen.css">
+	<script src="js/jquery.tools.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body>
+	<!-- BEGIN details -->
+	<div class="details">
+		<!-- BEGIN details__title -->
+		<div class="details__title">
+			<h2>007: Skyfall — Unedited Version just with long name to test it</h2>
+		</div>
+		<!-- BEGIN details__menu -->
+		<div class="details__menu">
+			<a href="#" class="merge"><i></i>Merge selected</a>
+			<!-- BEGIN nav -->
+			<nav class="nav nav_details">
+				<ul>
+					<li><a href="#">All items</a></li>
+					<li><a href="#">Ready for logging</a></li>
+					<li><a href="#">User working</a></li>
+					<li><a href="#">Ready for review</a></li>
+					<li><a href="#">Rejected</a></li>
+					<li><a href="#">Completed</a></li>
+				</ul>
+			</nav>
+			<!-- END nav -->
+			<a href="#" class="expand"><i></i>Expand all</a>
+		</div>
+		<!-- END details__menu -->
+
+		<!-- BEGIN details__content -->
+		<div class="details__content">
+			<!-- BEGIN entry -->
+			<div class="entry">
+
+				<!-- BEGIN entry__meta -->
+				<div class="entry__meta entry__meta_short">
+					<div class="entry__type">
+						<input class="input" id="select" type="checkbox"><i></i>
+						<label for="select">Theatrical</label>
+					</div>
+					<div class="entry__date">Added 01/22/13 7:51 UTC</div>
+					<div class="entry__media entry__media_short"><img src="img/spoiler/media1.jpg" alt=""></div>
+					<div class="entry__comments">
+						<a href="#"><i></i>140</a><span class="comments__count"><a href="#">5 new</a></span>
+					</div>
+				</div>
+				<!-- END entry__meta -->
+
+				<!-- BEGIN entry__info -->
+				<div class="entry__info">
+					<a href="#" class="expand"><i></i>Expand this entry</a>
+					<table class="entry__expand entry__expand_short entry__expand_short-bg-none">
+						<thead>
+							<tr>
+								<th><i class="video video_short"></i>Video</th>
+								<th>Added</th>
+								<th>Status</th>
+								<th>Assigned to</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="aspect">16:9</span> 1.78</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Mark Rius</span></td>
+							</tr>
+							<tr>
+								<td><span class="aspect">16:9</span> 1.33</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first">User working</option>
+											<option value="second" selected="selected">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Penelope Quatro</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="entry__expand entry__expand_short">
+						<thead>
+							<tr>
+								<th><i class="audio audio_short"></i>Audio</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="lang">Eng</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Mark Rius</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Esp</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first">User working</option>
+											<option value="second" selected="selected">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Penelope Quatro</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Fre</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">André Auctolioux</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Rus</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third" selected="selected">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Pete Petov</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Ger</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth" selected="selected">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Mark Rius</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="entry__expand entry__expand_short entry__expand_short-bg-none">
+						<thead>
+							<tr>
+								<th><i class="sub sub_short"></i>Subtitles</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="lang">Eng</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Mark Rius</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Esp</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first">User working</option>
+											<option value="second" selected="selected">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Penelope Quatro</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Fre</span> 5.1</td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">André Auctolioux</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- END entry__info -->
+
+			</div>
+			<!-- END entry -->
+
+			<!-- BEGIN entry -->
+			<div class="entry">
+
+				<!-- BEGIN entry__meta -->
+				<div class="entry__meta entry__meta_short">
+					<div class="entry__type">
+						<input class="input" id="select2" type="checkbox"><i></i>
+						<label for="select2">Unrated</label>
+					</div>
+					<div class="entry__date">Added 01/22/13 7:51 UTC</div>
+					<div class="entry__media entry__media_short"><img src="img/spoiler/media2.jpg" alt=""></div>
+					<div class="entry__comments">
+						<a href="#"><i></i>140</a><span class="comments__count"><a href="#">5 new</a></span>
+					</div>
+				</div>
+				<!-- END entry__meta -->
+
+				<!-- BEGIN entry__info -->
+				<div class="entry__info">
+					<table class="entry__expand entry__expand_short entry__expand_short-bg-none">
+						<thead>
+							<tr>
+								<th><i class="video video_short"></i>Video</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="aspect">No Video</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="entry__expand entry__expand_short">
+						<thead>
+							<tr>
+								<th><i class="audio audio_short"></i>Audio</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="lang">No Audio</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="entry__expand entry__expand_short entry__expand_short-bg-none">
+						<thead>
+							<tr>
+								<th><i class="sub sub_short"></i>Subtitles</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="lang">Eng</span></td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Mark Rius</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Esp</span></td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first">User working</option>
+											<option value="second" selected="selected">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Penelope Quatro</span></td>
+							</tr>
+							<tr>
+								<td><span class="lang">Fre</span></td>
+								<td></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">André Auctolioux</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- END entry__info -->
+
+			</div>
+			<!-- END entry -->
+
+			<!-- BEGIN entry -->
+			<div class="entry">
+
+				<!-- BEGIN entry__meta -->
+				<div class="entry__meta entry__meta_short">
+					<div class="entry__type">
+						<input class="input" id="select3" type="checkbox"><i></i>
+						<label for="select3">Theatrical</label>
+					</div>
+					<div class="entry__date">Added 01/22/13 7:51 UTC</div>
+					<div class="entry__media entry__media_short"><img src="img/spoiler/media3.jpg" alt=""></div>
+					<div class="entry__comments">
+						<a href="#"><i></i>140</a><span class="comments__count"><a href="#">5 new</a></span>
+					</div>
+				</div>
+				<!-- END entry__meta -->
+
+				<!-- BEGIN entry__info -->
+				<div class="entry__info">
+					<table class="entry__expand entry__expand_short entry__expand_short-bg-none">
+						<thead>
+							<tr>
+								<th><i class="video video_short"></i>Video</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="aspect">No Video</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="entry__expand entry__expand_short">
+						<thead>
+							<tr>
+								<th><i class="audio audio_short"></i>Audio</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="lang">No Audio</span></td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="entry__expand entry__expand_short entry__expand_short-bg-none">
+						<thead>
+							<tr>
+								<th><i class="sub sub_short"></i>Subtitles</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><span class="lang">Ger</span></td>
+								<td><span class="added">01/22/13 7:51 utc</span></td>
+								<td>
+									<form name="status" class="status" method="post" action="">
+										<select>
+											<option value="first" selected="selected">User working</option>
+											<option value="second">Ready for logging</option>
+											<option value="third">Ready for review</option>
+											<option value="fourth">Rejected</option>
+										</select>
+									</form>
+								</td>
+								<td><span class="assigned">Mark Rius</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!-- END entry__info -->
+
+			</div>
+			<!-- END entry -->
+
+		</div>
+		<!-- END details__content -->
+
+	</div>
+	<!-- END details -->
+</body>
+</html>

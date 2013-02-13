@@ -8,6 +8,7 @@
     overflow: hidden;
     color: #363636;
     margin-left: -4px;
+    padding-left: 1px;
     &:hover{
         background: url(../img/icons/arrow_ico.png) no-repeat 122px 8px #353535;
         border: 1px solid #444;
@@ -145,6 +146,9 @@
                 float: left;
                 width: 280px;
                 margin-left: 10px;
+                &.entry__meta_short{
+                    width: 255px;
+                }
             }
                 //entry__type
                 .entry__type{
@@ -193,6 +197,14 @@
                     margin: 13px 0 8px;
                     img{
                         box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.4);
+                        max-width: 262px;
+                        min-height: 172px;
+                    }
+                    &.entry__media_short{
+                        img{
+                            max-width: 131px;
+                            min-height: 87px;
+                        }
                     }
                 }
                 .entry__comments{
@@ -250,18 +262,30 @@
                                 left: -15px;
                                 top: 0;
                                 @include sized-sprite($icons, video_ico);
+                                &.video_short{
+                                    left: 10px;
+                                    top: 5px;
+                                }
                             }
                             .audio{
                                 position: absolute;
                                 left: -15px;
                                 top: 0;
                                 @include sized-sprite($icons, audio_ico);
+                                &.audio_short{
+                                    left: 10px;
+                                    top: 5px;
+                                }
                             }
                             .sub{
                                 position: absolute;
                                 left: -15px;
                                 top: 0;
                                 @include sized-sprite($icons, sub_ico);
+                                &.sub_short{
+                                    left: 10px;
+                                    top: 5px;
+                                }
                             }
                             .aspect{
                                 font-family: 'CPMono_v07Plain', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
@@ -279,5 +303,43 @@
                             .assigned{
                                 font-weight: bold;
                             }
+
+                        //entry__expand_short
+                        &.entry__expand_short{
+                            background: #e1e1e1;
+                            display: block;
+                            padding-top: 3px;
+                            padding-left: 10px;
+                            position: relative;
+                            td{
+                                display: none;
+                                padding-left: 15px;
+
+                            }
+                            tr,thead,tbody{
+                                display: inline-block;
+                                background: transparent !important;
+
+                            }
+                            tr{
+                                td,th{
+                                    &:first-child{
+                                        display: inline-block;
+                                        white-space:nowrap;
+                                        vertical-align: middle;
+                                    }
+                                }
+                                th{
+                                    font-size: 0;
+                                    padding-left: 0;
+                                    display: none;
+                                }
+                            }
+                        }
+                        &.entry__expand_short-bg-none{
+                            background: none;
+                        }
+
+
                     }
         }
