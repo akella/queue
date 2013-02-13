@@ -2,13 +2,12 @@
 
 //FORM STATUS
 .status{
-    border:none;
+    border: 1px transparent;
     position: relative;
     width: 135px;
     overflow: hidden;
     color: #363636;
     margin-left: -4px;
-    padding-left: 1px;
     &:hover{
         background: url(../img/icons/arrow_ico.png) no-repeat 122px 8px #353535;
         border: 1px solid #444;
@@ -96,6 +95,9 @@
                 vertical-align: middle;
                 margin-right: 5px;
             }
+            &.collapse_this{
+                top: 12px;
+            }
         }
         .expand{
             position: absolute;
@@ -107,6 +109,9 @@
                 display: inline-block;
                 vertical-align: middle;
                 margin-right: 5px;
+            }
+            &.expand_this{
+                top: 12px;
             }
         }
         //nav_details
@@ -141,13 +146,18 @@
             &.selected{
                 background-color: #f1ecdf;
             }
+
+            //entry__metadata
+            .entry__metadata{
+                margin-left: 10px;
+            }
             //entry__meta
             .entry__meta{
                 float: left;
                 width: 280px;
                 margin-left: 10px;
                 &.entry__meta_short{
-                    width: 255px;
+                    width: 140px;
                 }
             }
                 //entry__type
@@ -233,7 +243,7 @@
                 //entry__info
                 .entry__info{
                     overflow: hidden;
-                    padding: 2px 0 0 15px;
+                    padding: 10px 0 0 15px;
                 }
                     //entry__expand
                     .entry__expand{
@@ -306,7 +316,7 @@
 
                         //entry__expand_short
                         &.entry__expand_short{
-                            background: #e1e1e1;
+                            background: none;
                             display: block;
                             padding-top: 3px;
                             padding-left: 10px;
@@ -336,8 +346,8 @@
                                 }
                             }
                         }
-                        &.entry__expand_short-bg-none{
-                            background: none;
+                        &.entry__expand_short-bg{
+                            background: #e1e1e1;
                         }
 
 
