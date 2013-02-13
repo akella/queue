@@ -1,5 +1,52 @@
 @import "base";
 
+.video{
+    position: absolute;
+    left: -15px;
+    top: 0;
+    @include sized-sprite($icons, video_ico);
+    &.video_short{
+        left: 10px;
+        top: 5px;
+    }
+}
+.audio{
+    position: absolute;
+    left: -15px;
+    top: 0;
+    @include sized-sprite($icons, audio_ico);
+    &.audio_short{
+        left: 10px;
+        top: 5px;
+    }
+}
+.sub{
+    position: absolute;
+    left: -15px;
+    top: 0;
+    @include sized-sprite($icons, sub_ico);
+    &.sub_short{
+        left: 10px;
+        top: 5px;
+    }
+}
+.aspect{
+    font-family: 'CPMono_v07Plain', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    font-size: 18px;
+    margin-right: 8px;
+}
+.lang{
+    font-family: 'CPMono_v07Plain', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    font-size: 18px;
+    margin-right: 8px;
+}
+.added{
+    text-transform: uppercase;
+}
+.assigned{
+    font-weight: bold;
+}
+
 //FORM STATUS
 .status{
     border: 1px transparent;
@@ -267,52 +314,6 @@
                             vertical-align: middle;
                             width: 20%;
                         }
-                            .video{
-                                position: absolute;
-                                left: -15px;
-                                top: 0;
-                                @include sized-sprite($icons, video_ico);
-                                &.video_short{
-                                    left: 10px;
-                                    top: 5px;
-                                }
-                            }
-                            .audio{
-                                position: absolute;
-                                left: -15px;
-                                top: 0;
-                                @include sized-sprite($icons, audio_ico);
-                                &.audio_short{
-                                    left: 10px;
-                                    top: 5px;
-                                }
-                            }
-                            .sub{
-                                position: absolute;
-                                left: -15px;
-                                top: 0;
-                                @include sized-sprite($icons, sub_ico);
-                                &.sub_short{
-                                    left: 10px;
-                                    top: 5px;
-                                }
-                            }
-                            .aspect{
-                                font-family: 'CPMono_v07Plain', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
-                                font-size: 18px;
-                                margin-right: 8px;
-                            }
-                            .lang{
-                                font-family: 'CPMono_v07Plain', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
-                                font-size: 18px;
-                                margin-right: 8px;
-                            }
-                            .added{
-                                text-transform: uppercase;
-                            }
-                            .assigned{
-                                font-weight: bold;
-                            }
 
                         //entry__expand_short
                         &.entry__expand_short{
