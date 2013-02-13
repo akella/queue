@@ -1,5 +1,12 @@
 @import "base";
 
+.btn_close{
+    @include sized-sprite($icons, btn_close);
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
 .video{
     position: absolute;
     left: -15px;
@@ -95,6 +102,7 @@
 }
     //details__title
     .details__title{
+        position: relative;
         text-shadow: 0 1px 0 black;
         box-shadow: 0 0 10px #4b4b4b;
         background-color: #404040;
