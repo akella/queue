@@ -1,7 +1,7 @@
-.dialog { margin: 5% 0 0 35%; padding: 17px 0; box-shadow: 0 0 10px black; width: 466px; background: url(../img/dialog_bg.png); font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; line-height: 1.2; }
+.dialog { margin: 5% 0 0 35%; padding: 17px 0; box-shadow: 0 0 10px black; width: 466px; background: url(../img/dialog_bg.png); font-family: 'LucidaSans', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; line-height: 1.2; }
 
 .dialog__notice { padding: 0 13px 29px 13px; line-height: 1.3; }
-.dialog__notice h2 { font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 18px; color: #ccc; font-weight: normal; margin-bottom: 0.3em; }
+.dialog__notice h2 { font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 18px; color: #ccc; font-weight: normal; margin-bottom: 0.3em; }
 .dialog__notice p { color: #777; }
 
 .dialog__versions { overflow: hidden; padding: 0 13px 25px; width: 440px; border-bottom: 1px solid #515151; position: relative; }
@@ -15,7 +15,7 @@
 
 .dialog__meta { margin-bottom: 1.4em; }
 
-.dialog__type { color: #fff; font-size: 14px; font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; }
+.dialog__type { color: #fff; font-size: 14px; font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; }
 
 .dialog__data { color: #777; text-transform: uppercase; font-size: 11px; }
 
@@ -29,11 +29,11 @@
 
 .dialog__sound { color: #fff; font-size: 13px; margin-bottom: 0.5em; }
 
-.dialog__assigned { margin-bottom: 1em; color: #ccc; font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; }
+.dialog__assigned { margin-bottom: 1em; color: #ccc; font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; }
 
-.dialog__status { margin-bottom: 1em; color: #ccc; font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; }
+.dialog__status { margin-bottom: 1em; color: #ccc; font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; }
 
-.btn { border: 1px solid black; border-radius: 4px; padding: 2px 16px; color: #ccc; font-size: 12px; text-decoration: none; font-family: Tahoma, "Geneva CY", sans-serif; text-shadow: 0 -1px 1px black; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcxNzE3MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI4MjgyOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #717171), color-stop(100%, #282828)); background-image: -webkit-linear-gradient(#717171, #282828); background-image: -moz-linear-gradient(#717171, #282828); background-image: -o-linear-gradient(#717171, #282828); background-image: linear-gradient(#717171, #282828); }
-.btn:hover { background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI4MjgyOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzcxNzE3MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #282828), color-stop(100%, #717171)); background-image: -webkit-linear-gradient(#282828, #717171); background-image: -moz-linear-gradient(#282828, #717171); background-image: -o-linear-gradient(#282828, #717171); background-image: linear-gradient(#282828, #717171); text-shadow: 0 1px 1px black; color: #ccc; }
+.btn { border: 1px solid #000; border-radius: 4px; padding: 2px 16px; color: #ccc; font-size: 12px; text-decoration: none; font-family: Tahoma, "Geneva CY", sans-serif; text-shadow: 0 -1px 1px black; background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcxNzE3MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI4MjgyOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #717171), color-stop(100%, #282828)); background-image: -webkit-linear-gradient(#717171, #282828); background-image: -moz-linear-gradient(#717171, #282828); background-image: -o-linear-gradient(#717171, #282828); background-image: -ms-linear-gradient(#717171, #282828); background-image: linear-gradient(#717171, #282828); }
+.btn:hover { background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI4MjgyOCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzcxNzE3MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='); background-size: 100%; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #282828), color-stop(100%, #717171)); background-image: -webkit-linear-gradient(#282828, #717171); background-image: -moz-linear-gradient(#282828, #717171); background-image: -o-linear-gradient(#282828, #717171); background-image: -ms-linear-gradient(#282828, #717171); background-image: linear-gradient(#282828, #717171); text-shadow: 0 1px 1px black; color: #ccc; }
 
 .dialog__cancel { text-align: center; margin-top: 14px; }

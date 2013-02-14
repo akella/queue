@@ -1,10 +1,6 @@
-@import "compass/reset";
 @import "fonts";
-//@import "reset";
-@import "common";
+@import "common"; //resets and common stuff
 @import "header";
-@import "main";
-@import "expand";
-@import "dialog";
-
-@import "ie";
+@import "movie"; // default mainpage - with 3d stuff
+@import "details"; // what goes on click
+@import "dialog"; // what goes on furthermore

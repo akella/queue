@@ -1,7 +1,11 @@
 .movie { display: inline-block; vertical-align: top; width: 262px; margin: 22px 16px 0 18px; -webkit-transition: 0.3s; }
+.movie .movie__more, .movie .movie__less { position: absolute; bottom: 20px; right: 0; font-size: 11px; color: #777777; cursor: pointer; text-decoration: underline; display: none; }
 .movie_fade .movie { opacity: .4; }
-.movie .movie_current { opacity: 1 !important; }
-.movie .movie__type { color: #777; text-transform: uppercase; }
+.movie.movie_current { opacity: 1 !important; }
+.movie.movie_current .movie__meta { background: #000; margin: -2px -13px 0 -13px; padding: 2px 13px 0 13px; }
+.movie.movie_current .movie__more { display: block; right: 10px; top: 5px; }
+.movie .movie__meta { position: relative; -webkit-transition: 0.3s; }
+.movie .movie__type { color: #777; text-transform: uppercase; position: relative; }
 .movie .movie__title { font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #ccc; line-height: 1.8; text-shadow: 0 -1px 0 black; }
 .movie .movie__pic { -webkit-perspective: 1000; -moz-perspective: 1000; -ms-perspective: 1000; -o-perspective: 1000; perspective: 1000; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); -webkit-transition: 0.6s; cursor: pointer; }
 .movie .movie__pic:hover .movie__flipper { -webkit-transform: rotate3d(0, 1, 0, 35deg); -moz-transform: rotate3d(0, 1, 0, 35deg); -ms-transform: rotate3d(0, 1, 0, 35deg); -o-transform: rotate3d(0, 1, 0, 35deg); transform: rotate3d(0, 1, 0, 35deg); }

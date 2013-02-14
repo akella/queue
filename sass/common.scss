@@ -1,5 +1,5 @@
 @import "base";
-
+@import "compass/reset";
 // =======animation example
 // @include keyframes(rotate) {
 //    from {
@@ -34,46 +34,11 @@ body{
    }
    background: url(../img/bg.png);
    color: #eee;
-   width: 100%;
    min-width: 920px;
 }
 
-h1,h2,h3,h4,h5{
-   font: bold 16px/20px 'LucidaSans', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
-}
 
-// common styles, these could be attached to any block with "@extend %wyswyg;"
-%wyswyg{
-   p{
-      margin-bottom: 1em;
-   }
-   ul,ol{
-      margin: 1em 2em;
-      list-style: disc;
-   }
-   ol{
-      list-style: decimal;
-   }
-   blockquote{
-      margin: 1em 2em;
-   }
-   table{
-   	border-spacing: 0;
-   	border-collapse: collapse;
-   	width: 100%;
-      td{
-         border: 1px solid #ccc;
-         padding: 5px;
-      }
-   }
-}
 
-// %wrap{
-//    width: 1000px;
-//    margin: auto;
-// }
-
-//page
 .page{
       background: url(../img/page_bg.png) repeat-x;
       min-height: 500px;

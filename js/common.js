@@ -11,6 +11,11 @@ $(document).ready(function() {
 	});
 
 	$('.movie__pic').click(function(event) {
+		$('.movie_current').removeClass('movie_current');
 		$(this).toggleClass('flipped');
+		$('body').toggleClass('movie_fade');
+		$(this).parent().addClass('movie_current');
 	});
+
+
 });

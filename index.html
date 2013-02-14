@@ -76,6 +76,7 @@
 
 					<!-- begin movie -->
 					<div class="movie">
+						
 						<div class="movie__pic">
 							<div class="movie__flipper">
 								<div class="movie__front"><img src="img/spoiler/pic1.jpg" alt=""></div>
@@ -85,8 +86,12 @@
 								<div class="movie__left">@@</div>
 							</div>
 						</div>
-						<div class="movie__type">Type</div>
-						<div class="movie__title">Cowboy Bebop</div>
+						<div class="movie__meta">
+							<div class="movie__more">Show Details</div>
+							<div class="movie__less">Hide Details</div>
+							<div class="movie__type">Type</div>
+							<div class="movie__title">Cowboy Bebop</div>
+						</div>
 					</div>
 					<!-- end movie -->
 
@@ -140,16 +145,18 @@
 					
 					
 					
-					<!-- BEGIN details -->
+	<!-- BEGIN details -->
 	<div class="details">
+		<div class="details__arr"></div>
+		<div class="details__close"></div>
 		<!-- BEGIN details__title -->
 		<div class="details__title">
 			<h2>007: Skyfall — Unedited Version just with long name to test it</h2>
-			<a href="#" class="btn_close"></a>
+			
 		</div>
 		<!-- BEGIN details__menu -->
 		<div class="details__menu">
-			<a href="#" class="merge"><i></i>Merge selected</a>
+			<a href="#" class="details__merge"><i></i>Merge selected</a>
 			<!-- BEGIN nav -->
 			<nav class="nav nav_details">
 				<ul>
@@ -162,7 +169,7 @@
 				</ul>
 			</nav>
 			<!-- END nav -->
-			<a href="#" class="collapse"><i></i>Collapse all</a>
+			<a href="#" class="details__collapse"><i></i>Collapse all</a>
 		</div>
 		<!-- END details__menu -->
 
@@ -189,7 +196,7 @@
 
 				<!-- BEGIN entry__info -->
 				<div class="entry__info">
-					<a href="#" class="collapse collapse_this"><i></i>Collapse this entry</a>
+					<a href="#" class="details__collapse details__collapse_this"><i></i>Collapse this entry</a>
 					<table class="entry__expand">
 						<thead>
 							<tr>
@@ -562,42 +569,41 @@
 	</div>
 	<!-- END details -->
 					
-					
 
-					<!-- begin movie -->
-					<div class="movie">
-						<div class="movie__pic">
-							<div class="movie__flipper">
-								<div class="movie__front"><img src="img/spoiler/pic1.jpg" alt=""></div>
-								<div class="movie__back">
-									<img src="img/spoiler/pic2.jpg" alt="">
-								</div>
-								<div class="movie__left">@@</div>
-							</div>
-						</div>
-						<div class="movie__type">Type</div>
-						<div class="movie__title">Cowboy Bebop</div>
+		<!-- begin movie -->
+		<div class="movie">
+			<div class="movie__pic">
+				<div class="movie__flipper">
+					<div class="movie__front"><img src="img/spoiler/pic1.jpg" alt=""></div>
+					<div class="movie__back">
+						<img src="img/spoiler/pic2.jpg" alt="">
 					</div>
-					<!-- end movie -->
-
-					<!-- begin movie -->
-					<div class="movie">
-						<div class="movie__pic">
-							<div class="movie__flipper">
-								<div class="movie__front"><img src="img/spoiler/pic2.jpg" alt=""></div>
-								<div class="movie__back">
-									<img src="img/spoiler/pic3.jpg" alt="">
-								</div>
-								<div class="movie__left">@@</div>
-							</div>
-						</div>
-						<div class="movie__type">Type</div>
-						<div class="movie__title">Cowboy Bebop</div>
-					</div>
-					<!-- end movie -->
-
+					<div class="movie__left">@@</div>
 				</div>
-				<!-- END page__content -->
+			</div>
+			<div class="movie__type">Type</div>
+			<div class="movie__title">Cowboy Bebop</div>
+		</div>
+		<!-- end movie -->
+
+		<!-- begin movie -->
+		<div class="movie">
+			<div class="movie__pic">
+				<div class="movie__flipper">
+					<div class="movie__front"><img src="img/spoiler/pic2.jpg" alt=""></div>
+					<div class="movie__back">
+						<img src="img/spoiler/pic3.jpg" alt="">
+					</div>
+					<div class="movie__left">@@</div>
+				</div>
+			</div>
+			<div class="movie__type">Type</div>
+			<div class="movie__title">Cowboy Bebop</div>
+		</div>
+		<!-- end movie -->
+
+	</div>
+	<!-- END page__content -->
 	</div>
 	<!-- END page-->
 </body>
