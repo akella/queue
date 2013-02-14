@@ -9,4 +9,8 @@ $(document).ready(function() {
 			$(this).parent().parent().parent('.entry').removeClass('selected');
 		};
 	});
+
+	$('.movie__pic').click(function(event) {
+		$(this).toggleClass('flipped');
+	});
 });
