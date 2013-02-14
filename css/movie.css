@@ -1,9 +1,9 @@
 .movie { display: inline-block; vertical-align: top; width: 262px; margin: 22px 16px 0 18px; -webkit-transition: 0.3s; }
-.movie .movie__more, .movie .movie__less { position: absolute; bottom: 20px; right: 0; font-size: 11px; color: #777777; cursor: pointer; text-decoration: underline; display: none; }
+.movie .movie__more, .movie .movie__less { position: absolute; font-size: 11px; color: #777777; cursor: pointer; text-decoration: underline; display: none; z-index: 50; right: 10px; top: 5px; }
 .movie_fade .movie { opacity: .4; }
 .movie.movie_current { opacity: 1 !important; }
 .movie.movie_current .movie__meta { background: #000; margin: -2px -13px 0 -13px; padding: 2px 13px 0 13px; }
-.movie.movie_current .movie__more { display: block; right: 10px; top: 5px; }
+.movie.movie_current .movie__more { display: block; }
 .movie .movie__meta { position: relative; -webkit-transition: 0.3s; }
 .movie .movie__type { color: #777; text-transform: uppercase; position: relative; }
 .movie .movie__title { font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #ccc; line-height: 1.8; text-shadow: 0 -1px 0 black; }

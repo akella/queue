@@ -10,13 +10,14 @@
 	-webkit-transition: 0.3s;
 	.movie__more,.movie__less{
 		position: absolute;
-		bottom: 20px;
-		right: 0;
 		font-size: 11px;
 		color: #777777;
 		cursor: pointer;
 		text-decoration: underline;
 		display: none;
+		z-index: 50;
+		right: 10px;
+		top: 5px;
 	}
 	.movie_fade &{
 		opacity: .4;
@@ -30,8 +31,6 @@
 		}
 		.movie__more{
 			display: block;
-			right: 10px;
-			top: 5px;
 		}
 	}
 	.movie__meta{

@@ -100,6 +100,7 @@
 		right: 20px;
 		top: 20px;
 		cursor: pointer;
+		z-index: 50;
 	}
 	a{
 		text-decoration: underline;
@@ -152,22 +153,21 @@
 		}
 	}
 	.details__collapse{
-			position: absolute;
-			right: 24px;
-			font-size: 11px;
-			z-index: 2;
-			i{
-				@include sized-sprite($icons, collapse_ico);
-				display: inline-block;
-				vertical-align: middle;
-				margin-right: 5px;
-			}
-			&.details__collapse_this{
-				top: 12px;
-			}
+		position: absolute;
+		right: 24px;
+		font-size: 11px;
+		z-index: 2;
+		i{
+			@include sized-sprite($icons, collapse_ico);
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
 		}
+		&.details__collapse_this{
+			top: 12px;
+		}
+	}
 }
-		
 		.expand{
 			position: absolute;
 			right: 24px;
