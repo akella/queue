@@ -50,7 +50,8 @@ $(document).ready(function() {
 
 	});
 	$('.details__close,.movie__less').click(function(event) {
-		$(this).closest('.details').slideToggle('slow');
+		$('.details').slideToggle();
+		$('.movie__less').hide()
 	});
 
 });
