@@ -46,11 +46,11 @@ $(document).ready(function() {
 		$det = $('.details');
 		paren = $('.movie:nth-child('+row*rownumber+')');
 		$det.insertAfter(paren);
-		$('.details').toggle();
+		$('.details').slideToggle('slow');
 
 	});
 	$('.details__close,.movie__less').click(function(event) {
-		$(this).closest('.details').toggle();
+		$(this).closest('.details').slideToggle('slow');
 	});
 
 });
