@@ -19,6 +19,6 @@ html, body { height: 100%; }
 
 * { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
 
-body { font-family: 'LucidaSans', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-weight: normal; font-size: 11px; background: url(../img/bg.png); color: #eee; min-width: 920px; }
+body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-weight: normal; font-size: 11px; background: url(../img/bg.png); color: #eee; min-width: 920px; }
 
 .page { background: url(../img/page_bg.png) repeat-x; min-height: 500px; padding: 20px 0; }

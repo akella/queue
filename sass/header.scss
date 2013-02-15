@@ -55,14 +55,14 @@
 	background: url(../img/header_bg.png);
 	box-shadow:inset 0px 10px 10px rgba(#000,0.4);
 	padding: 24px 0 9px;
-	overflow: hidden;
 }
 
 	//header__logo
 	.header__logo{
 		float: left;
+		width: 124px;
 	    margin-left: 17px;
-	    margin-right: -141px;
+	    margin-right: 25px;
 		a{
 			@include sized-sprite($icons, logo);
 			display: block;
@@ -73,26 +73,114 @@
 
 	//header__col
 	.header__col{
-		float: left;
-		width: 100%;
-		margin: 0 165px;
+		//overflow: hidden;
+		margin-left: 165px;
 	}
 
-		//header__search
-		.header__search{
+		//field
+		.field{
+			border-radius: 30px;
+			border: 1px solid #333;
 			margin-bottom: 10px;
-			form{
-				padding-right: 210px;
-			}
-			input{
-				border-radius: 30px;
-				border: 1px solid #333;
-				width: 993px;
-				padding-left: 20px;
-				height: 23px;
-				width: 100%;
-			}
+			background-color: #fff;
+			margin-right: 25px;
+			position: relative;
+			color: #000;
+			box-shadow: inset 0px 4px 5px -1px rgba(0,0,0,.2);
 		}
+
+			.field__option{
+	 			position: absolute;
+	 			left: 1px;
+	 			top: 0;
+	 			line-height: 19px;
+	 			margin-top: 1px;
+			}
+				.field__col{
+					float: left;
+					margin-right: 4px;
+				}
+					.field__drop,
+					.field__text{
+						display: inline-block;
+						vertical-align: middle;
+						background-color: #ffdb7e;
+						border: 1px solid #b69f29;
+					}
+					.field__drop{
+						position: relative;
+						padding: 0 7px;
+						border-radius: 10px 0 0 10px;
+						color: #7d7548;
+						text-transform: uppercase;
+						font-size: 9px;
+						&:hover{
+							color: #000;
+							border-radius: 10px 0 0;
+							cursor: pointer;
+							background-color: rgba(255,188,78,.9);
+							border-bottom: transparent;
+							padding-bottom: 1px;
+							ul{
+								display: block;
+							}
+						}
+						ul{
+							background-color: rgba(255,188,78,.9);
+							display: none;
+							position: absolute;
+							left: -1px;
+							top: 20px;
+							padding-bottom: 5px;
+							line-height: 1.4;
+							border: 1px solid #b69f29;
+							border-top: none;
+							width: 120px;
+							color: #000;
+							z-index: 1001;
+							li{
+								padding: 5px;
+								a{
+									&:hover{
+										text-decoration: underline;
+									}
+								}
+							}
+						}
+
+					}
+					.field__text{
+						border-left: none;
+						margin-left: -3px;
+						padding: 0 7px;
+						border-radius: 0 10px 10px 0;
+						font-size: 14px;
+					}
+						.field__arr{
+							@include sized-sprite($icons, arr_ico);
+							position: absolute;
+							top: 8px;
+							right: 3px;
+						}
+						.field__drop-text{
+							margin-right: 12px;
+						}
+
+			.field__search{
+				overflow: hidden;
+				padding-left: 355px;
+				input{
+					font-family: 'LucidaSans', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+					font-size: 14px;
+					color: #000;
+					width: 100%;
+					border: 0;
+					background: transparent;
+					height: 23px;
+				}
+			}
+
+
 
 		//nav
 		.nav{
