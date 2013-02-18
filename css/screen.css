@@ -63,9 +63,9 @@ body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-s
 
 .header__col { margin-left: 165px; }
 
-.field { border-radius: 30px; border: 1px solid #333333; margin-bottom: 10px; background-color: #fff; margin-right: 25px; position: relative; color: #000; box-shadow: inset 0px 4px 5px -1px rgba(0, 0, 0, 0.2); }
+.field { height: 23px; border-radius: 30px; border: 1px solid #333333; margin-bottom: 10px; background-color: #fff; margin-right: 25px; position: relative; color: #000; box-shadow: inset 0px 4px 5px -1px rgba(0, 0, 0, 0.2); }
 
-.field__option { position: absolute; left: 1px; top: 0; line-height: 19px; margin-top: 1px; }
+.field__option { position: absolute; left: 2px; top: 1px; line-height: 19px; }
 
 .field__col { float: left; margin-right: 4px; }
 
@@ -86,6 +86,7 @@ body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-s
 
 .field__search { overflow: hidden; padding-left: 355px; }
 .field__search input { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 14px; color: #000; width: 100%; border: 0; background: transparent; height: 23px; }
+.field__search input:focus { outline: none; }
 
 .nav { display: inline-block; text-transform: uppercase; }
 .nav li { float: left; margin-left: -14px; }
@@ -155,7 +156,7 @@ body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-s
 .details .details__merge i { background: url('../img/icons-s044bffe0c3.png') 0 -271px no-repeat; width: 12px; height: 12px; display: inline-block; vertical-align: middle; margin-right: 5px; }
 .details .details__collapse { position: absolute; right: 24px; font-size: 11px; z-index: 2; }
 .details .details__collapse i { background: url('../img/icons-s044bffe0c3.png') 0 -359px no-repeat; width: 10px; height: 3px; display: inline-block; vertical-align: middle; margin-right: 5px; }
-.details .details__collapse.details__collapse_this { top: 12px; }
+.details .details__collapse.details__collapse_this { top: 12px; display: none; }
 
 .expand { position: absolute; right: 24px; font-size: 11px; z-index: 2; }
 .expand i { background: url('../img/icons-s044bffe0c3.png') 0 -313px no-repeat; width: 9px; height: 9px; display: inline-block; vertical-align: middle; margin-right: 5px; }

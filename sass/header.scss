@@ -79,6 +79,7 @@
 
 		//field
 		.field{
+			height: 23px;
 			border-radius: 30px;
 			border: 1px solid #333;
 			margin-bottom: 10px;
@@ -91,10 +92,9 @@
 
 			.field__option{
 	 			position: absolute;
-	 			left: 1px;
-	 			top: 0;
+	 			left: 2px;
+	 			top: 1px;
 	 			line-height: 19px;
-	 			margin-top: 1px;
 			}
 				.field__col{
 					float: left;
@@ -156,6 +156,7 @@
 						border-radius: 0 10px 10px 0;
 						font-size: 14px;
 					}
+
 						.field__arr{
 							@include sized-sprite($icons, arr_ico);
 							position: absolute;
@@ -177,6 +178,9 @@
 					border: 0;
 					background: transparent;
 					height: 23px;
+					&:focus{
+						outline:none;
+					}
 				}
 			}
 
