@@ -20,7 +20,7 @@
 
 .field { height: 23px; border-radius: 30px; border: 1px solid #333333; margin-bottom: 10px; background-color: #fff; margin-right: 25px; position: relative; color: #000; box-shadow: inset 0px 4px 5px -1px rgba(0, 0, 0, 0.2); }
 
-.field__option { position: absolute; left: 2px; top: 1px; line-height: 19px; }
+.field__option { position: absolute; left: 2px; top: 1px; line-height: 19px; height: 21px; }
 
 .field__col { float: left; margin-right: 4px; }
 
