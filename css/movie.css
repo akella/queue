@@ -2,7 +2,7 @@
 .movie .movie__more, .movie .movie__less { position: absolute; font-size: 11px; color: #777777; cursor: pointer; text-decoration: underline; display: none; z-index: 50; right: 10px; top: 2px; }
 .movie_fade .movie { opacity: .4; }
 .movie.movie_current { opacity: 1 !important; }
-.movie.movie_current .movie__meta { background: #000; margin: -2px -13px 0 -13px; padding: 2px 13px; }
+.movie.movie_current .movie__meta { background: #000; margin: -2px -13px 0 -13px; padding: 2px 13px; min-height: 27px; }
 .movie.movie_current .movie__more { display: block; }
 .movie .movie__meta { position: relative; -webkit-transition: 0.3s; }
 .movie .movie__type { color: #777; text-transform: uppercase; position: relative; }
