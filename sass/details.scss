@@ -141,7 +141,7 @@
 		position: relative;
 		background: #fbfbfb;
 	}
-	.details__merge{
+	.merge{
 		position: absolute;
 		left: 24px;
 		font-size: 11px;
@@ -152,7 +152,7 @@
 			margin-right: 5px;
 		}
 	}
-	.details__collapse{
+	.collapse{
 		position: absolute;
 		right: 24px;
 		font-size: 11px;
@@ -164,7 +164,7 @@
 			vertical-align: middle;
 			margin-right: 5px;
 		}
-		&.details__collapse_this{
+		&.collapse_this{
 			top: 12px;
 			display: none;
 			text-decoration: underline;

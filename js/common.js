@@ -3,9 +3,9 @@ $(document).ready(function() {
 	$('.entry__type input').click(function(){
 		 if (this.checked){
 			 $(this).parent().parent().parent('.entry').addClass('selected');
-			 // showing link (.details__collapse_this)
+			 // showing link (.collapse_this)
 			 $(this).parent().parent().parent('.entry')
-			 .children('.entry__info').find('.details__collapse_this')
+			 .children('.entry__info').find('.collapse_this')
 			 .show();
 			 // showing link (.expand_this)
 			  $(this).parent().parent().parent('.entry')
@@ -14,9 +14,9 @@ $(document).ready(function() {
 		 }
 		else{
 			$(this).parent().parent().parent('.entry').removeClass('selected');
-			// hiding link (.details__collapse_this)
+			// hiding link (.collapse_this)
 			$(this).parent().parent().parent('.entry')
-			.children('.entry__info').find('.details__collapse_this')
+			.children('.entry__info').find('.collapse_this')
 			.hide();
 			// hiding link (.expand_this)
 			$(this).parent().parent().parent('.entry')
