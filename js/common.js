@@ -1,16 +1,49 @@
 $(document).ready(function() {
 
-	//$('.entry__type input:checked').parent().parent().parent('.entry').addClass('selected');
 	$('.entry__type input').click(function(){
 		 if (this.checked){
 			 $(this).parent().parent().parent('.entry').addClass('selected');
-			 $('.details__collapse_this').show();
+			 // showing link (.details__collapse_this)
+			 $(this).parent().parent().parent('.entry')
+			 .children('.entry__info').find('.details__collapse_this')
+			 .show();
+			 // showing link (.expand_this)
+			  $(this).parent().parent().parent('.entry')
+			  .children('.entry__info').find('.expand_this')
+			  .show();
 		 }
 		else{
 			$(this).parent().parent().parent('.entry').removeClass('selected');
-			$('.details__collapse_this').hide();
+			// hiding link (.details__collapse_this)
+			$(this).parent().parent().parent('.entry')
+			.children('.entry__info').find('.details__collapse_this')
+			.hide();
+			// hiding link (.expand_this)
+			$(this).parent().parent().parent('.entry')
+			.children('.entry__info').find('.expand_this')
+			.hide();
 		};
+
+
 	});
+
+
+		// //removing class .details__collapse_this and adding classes .expand + .expand_this
+		// $('.details__collapse_this').click(function(){
+		// 	$(this).removeClass()
+		// 	.addClass('expand expand_this')
+		// 	// adding text
+		// 	.html('<i></i>Expand this entry');
+		// });
+
+		// //removing class .expand_this and adding classes .details__collapse + .details__collapse_this
+		// $('.expand_this').click(function(){
+		// 	$(this).removeClass();
+		// 	$(this).addClass('details__collapse details__collapse_this')
+		// 	// adding text
+		// 	.html('<i></i>Collapse this entry');
+		// });
+
 
 	$('.movie__pic').click(function(event) {
 		if($(this).parent().hasClass('movie_current')){

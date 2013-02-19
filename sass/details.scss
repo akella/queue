@@ -85,7 +85,6 @@
 	display: none;
 	color: #363636;
 	font-size: 13px;
-	padding: 0 0 20px;
 	background: #404040;
 	position: relative;
 	.details__arr{
@@ -158,6 +157,7 @@
 		right: 24px;
 		font-size: 11px;
 		z-index: 2;
+		cursor: pointer;
 		i{
 			@include sized-sprite($icons, collapse_ico);
 			display: inline-block;
@@ -167,10 +167,15 @@
 		&.details__collapse_this{
 			top: 12px;
 			display: none;
+			text-decoration: underline;
+			&:hover{
+				text-decoration: none;
+			}
 		}
 	}
 }
 		.expand{
+			cursor: pointer;
 			position: absolute;
 			right: 24px;
 			font-size: 11px;
@@ -183,6 +188,10 @@
 			}
 			&.expand_this{
 				top: 12px;
+				text-decoration: underline;
+				&:hover{
+					text-decoration: none;
+				}
 			}
 		}
 		//nav_details

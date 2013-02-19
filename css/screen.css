@@ -143,7 +143,7 @@ body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-s
 .status select { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #363636; background: transparent; -webkit-appearance: none; border: none; width: 220px; cursor: pointer; }
 .status option { background: #353535; color: #fff; }
 
-.details { -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; display: none; color: #363636; font-size: 13px; padding: 0 0 20px; background: #404040; position: relative; }
+.details { -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d; -o-transform-style: preserve-3d; transform-style: preserve-3d; display: none; color: #363636; font-size: 13px; background: #404040; position: relative; }
 .details .details__arr { background: url('../img/icons-s044bffe0c3.png') 0 -160px no-repeat; width: 20px; height: 11px; position: absolute; top: -10px; left: 200px; z-index: 100; }
 .details .details__close { background: url('../img/icons-s044bffe0c3.png') 0 -85px no-repeat; width: 15px; height: 15px; position: absolute; right: 20px; top: 20px; cursor: pointer; z-index: 50; }
 .details a { text-decoration: underline; color: #404040; }
@@ -154,13 +154,15 @@ body { font-family: "LucidaSans", Arial, "Helvetica CY", "Nimbus Sans L", sans-s
 .details .details__content { position: relative; background: #fbfbfb; }
 .details .details__merge { position: absolute; left: 24px; font-size: 11px; }
 .details .details__merge i { background: url('../img/icons-s044bffe0c3.png') 0 -271px no-repeat; width: 12px; height: 12px; display: inline-block; vertical-align: middle; margin-right: 5px; }
-.details .details__collapse { position: absolute; right: 24px; font-size: 11px; z-index: 2; }
+.details .details__collapse { position: absolute; right: 24px; font-size: 11px; z-index: 2; cursor: pointer; }
 .details .details__collapse i { background: url('../img/icons-s044bffe0c3.png') 0 -359px no-repeat; width: 10px; height: 3px; display: inline-block; vertical-align: middle; margin-right: 5px; }
-.details .details__collapse.details__collapse_this { top: 12px; display: none; }
+.details .details__collapse.details__collapse_this { top: 12px; display: none; text-decoration: underline; }
+.details .details__collapse.details__collapse_this:hover { text-decoration: none; }
 
-.expand { position: absolute; right: 24px; font-size: 11px; z-index: 2; }
+.expand { cursor: pointer; position: absolute; right: 24px; font-size: 11px; z-index: 2; }
 .expand i { background: url('../img/icons-s044bffe0c3.png') 0 -313px no-repeat; width: 9px; height: 9px; display: inline-block; vertical-align: middle; margin-right: 5px; }
-.expand.expand_this { top: 12px; }
+.expand.expand_this { top: 12px; text-decoration: underline; }
+.expand.expand_this:hover { text-decoration: none; }
 
 .nav_details { vertical-align: middle; }
 .nav_details li a { color: #363636; }
