@@ -6,7 +6,7 @@
 .movie.movie_current .movie__more { display: block; }
 .movie .movie__meta { position: relative; -webkit-transition: 0.3s; }
 .movie .movie__type { color: #777; text-transform: uppercase; position: relative; }
-.movie .movie__title { margin: 2px 0; width: 73%; overflow: hidden; text-overflow: ellipsis; font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #ccc; text-shadow: 0 -1px 0 black; }
+.movie .movie__title { width: 73%; overflow: hidden; text-overflow: ellipsis; font-family: "LucidaSans-Demi", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif; font-size: 13px; color: #ccc; text-shadow: 0 -1px 0 black; }
 .movie .movie__pic { -webkit-perspective: 1000; -moz-perspective: 1000; -ms-perspective: 1000; -o-perspective: 1000; perspective: 1000; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); -webkit-transition: 0.6s; cursor: pointer; }
 .movie .movie__pic img { width: 262px; height: 173px; }
 .movie .movie__pic:hover .movie__flipper { -webkit-transform: rotate3d(0, 1, 0, 35deg); -moz-transform: rotate3d(0, 1, 0, 35deg); -ms-transform: rotate3d(0, 1, 0, 35deg); -o-transform: rotate3d(0, 1, 0, 35deg); transform: rotate3d(0, 1, 0, 35deg); }
