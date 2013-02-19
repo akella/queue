@@ -17,7 +17,7 @@
 		display: none;
 		z-index: 50;
 		right: 10px;
-		top: 5px;
+		top: 2px;
 	}
 	.movie_fade &{
 		opacity: .4;
@@ -27,7 +27,7 @@
 		.movie__meta{
 			background: #000;
 			margin: -2px -13px 0 -13px;
-			padding: 2px 13px 0 13px;
+			padding: 2px 13px;
 		}
 		.movie__more{
 			display: block;
@@ -43,10 +43,13 @@
 		position: relative;
 	}
 	.movie__title{
+		margin: 2px 0;
+		width: 73%;
+		overflow: hidden;
+		text-overflow: ellipsis;
 		font-family: 'LucidaSans-Demi', Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 		font-size: 13px;
 		color: #ccc;
-		line-height: 1.8;
 		text-shadow: 0 -1px 0 #000;
 // 		-webkit-transition: 0.3s;
 	}
@@ -55,6 +58,10 @@
 		box-shadow:0 0 10px rgba(#000, .7);
 		-webkit-transition: 0.6s;
 		cursor: pointer;
+		img{
+			width: 262px;
+			height: 173px;
+		}
 		&:hover{
 			.movie__flipper{
 				@include transform(rotate3d(0,1,0,35deg))
