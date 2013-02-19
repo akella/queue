@@ -56,12 +56,14 @@
 	}
 	.movie__pic {
 		@include perspective(1000);
-		box-shadow:0 0 10px rgba(#000, .7);
+		
 		-webkit-transition: 0.6s;
 		cursor: pointer;
 		img{
 			width: 262px;
 			height: 173px;
+			box-shadow:0 0 16px rgba(#000, .8);
+			display: block;
 		}
 		&:hover{
 			.movie__flipper{
