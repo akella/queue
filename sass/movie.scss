@@ -27,8 +27,7 @@
 		.movie__meta{
 			background: #000;
 			margin: -2px -13px 0 -13px;
-			padding: 2px 13px;
-			min-height: 27px;
+			padding: 2px 13px 0 13px;
 		}
 		.movie__more{
 			display: block;
@@ -37,11 +36,13 @@
 	.movie__meta{
 		position: relative;
 		-webkit-transition: 0.3s;
+		min-height: 27px;
 	}
 	.movie__type{
 		color: #777;
 		text-transform: uppercase;
 		position: relative;
+		top: -3px;
 	}
 	.movie__title{
 		//margin: 2px 0;

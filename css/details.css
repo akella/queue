@@ -6,6 +6,11 @@
 @-webkit-keyframes fadeOutUp { 0% { opacity: 1; -webkit-transform: translateY(0); }
   100% { opacity: 0; -webkit-transform: translateY(-50px); } }
 
+@-webkit-keyframes bounceOut { 0% { -webkit-transform: scale(1); }
+  25% { -webkit-transform: scale(0.95); }
+  50% { opacity: 1; -webkit-transform: scale(1.1); }
+  100% { opacity: 0; -webkit-transform: scale(0.3); } }
+
 .animatedShow, .animatedHide { -webkit-animation-duration: 1s; -webkit-animation-fill-mode: both; }
 
 .animatedShow { -webkit-animation-name: fadeInUp; }

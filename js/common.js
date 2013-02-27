@@ -82,11 +82,7 @@ $(document).ready(function() {
 		paren = $('.movie:nth-child('+row*rownumber+')');
 		$det.insertAfter(paren);
 		$('.details').animate({
-		    "height": "show",
-		    "marginTop": "show",
-		    "marginBottom": "show",
-		    "paddingTop": "show",
-		    "paddingBottom": "show"
+		    "height": "show"
 		},function(){
 			$(this).addClass('animatedShow');
 		});
@@ -94,11 +90,7 @@ $(document).ready(function() {
 	});
 	$('.details__close,.movie__less').click(function(event) {
 		$('.details').addClass('animatedHide').animate({
-		    "height": "hide",
-		    "marginTop": "hide",
-		    "marginBottom": "hide",
-		    "paddingTop": "hide",
-		    "paddingBottom": "hide"
+		    "height": "hide"
 		});
 		$('.movie__less').hide()
 	});
