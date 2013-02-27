@@ -1,5 +1,39 @@
 @import "base";
-
+//animations
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+}
+@-webkit-keyframes fadeOutUp {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY(-50px);
+	}
+}
+.animatedShow,.animatedHide{
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+}
+.animatedShow{
+	-webkit-animation-name: fadeInUp;
+}
+.animatedHide{
+	-webkit-animation-name: fadeOutUp;
+	-webkit-animation-duration: .5s;
+}
+.details{
+	opacity: 0;
+}
 
 .video{
 	position: absolute;
@@ -46,6 +80,18 @@
 }
 .assigned{
 	font-weight: bold;
+	position: relative;
+	select{
+		-webkit-appearance:none;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		z-index: 10;
+		cursor: pointer;
+	}
 }
 
 //FORM STATUS
@@ -338,6 +384,9 @@
 							height: 25px;
 							vertical-align: middle;
 							width: 20%;
+							&:first-child{
+								white-space: nowrap;
+							}
 						}
 
 						//entry__expand_short

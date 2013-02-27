@@ -81,11 +81,25 @@ $(document).ready(function() {
 		$det = $('.details');
 		paren = $('.movie:nth-child('+row*rownumber+')');
 		$det.insertAfter(paren);
-		$('.details').slideToggle('slow');
+		$('.details').animate({
+		    "height": "show",
+		    "marginTop": "show",
+		    "marginBottom": "show",
+		    "paddingTop": "show",
+		    "paddingBottom": "show"
+		},function(){
+			$(this).addClass('animatedShow');
+		});
 
 	});
 	$('.details__close,.movie__less').click(function(event) {
-		$('.details').slideToggle();
+		$('.details').addClass('animatedHide').animate({
+		    "height": "hide",
+		    "marginTop": "hide",
+		    "marginBottom": "hide",
+		    "paddingTop": "hide",
+		    "paddingBottom": "hide"
+		});
 		$('.movie__less').hide()
 	});
 
